@@ -10,12 +10,16 @@ body {
     background-color: #F1F8FF;
 }
 
+a {
+    color: rgb(55, 45, 115);
+}
+
 .container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     padding: 50px;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto; 
 }
 
