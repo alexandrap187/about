@@ -1,0 +1,51 @@
+
+
+body {
+    color: #000;
+    font-family: "Myanmar Sangam MN";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #F1F8FF;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.column {
+    width: 45%;
+    padding: 30px;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #000;
+    font-family: Mynerve;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width: 805px) {
+    .container {
+        flex-direction: column; /* Stack the columns vertically */
+        align-items: center; /* Center the columns */
+    }
+
+    .column {
+        width: 100%; /* Make the columns take up the full width */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+}
